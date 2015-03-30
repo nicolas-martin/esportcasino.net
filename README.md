@@ -1,4 +1,4 @@
-### Pot 
+### Pot (I don't like this name.. it's weird. Got any suggestion?)
 |Id       | RoundId 	|Items |Value|SteamId|
 |---------|---------	|----	|---- |------|
 |   1     |    1     	|	{}    |  5   |2222|
