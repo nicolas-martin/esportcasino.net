@@ -1,13 +1,13 @@
 ### Pot
-|Id       | RoundId 	| PlayerId |Items |Value| Skim 	| TimeStarted 	| TimeEnded 	|
-|---------|---------	|----------|----	|---- |------	|-------------	|-----------	|
-|         |         	|          |	    |     |      	|             	|           	|
-|         |         	|          |	    |     |      	|             	|           	|
-|         |         	|          |	    |     |      	|             	|           	|
+|Id       | RoundId 	| PlayerId |Items |Value| TimeStarted 	| TimeEnded 	|
+|---------|---------	|----------|----	|---- |-------------	|-----------	|
+|   1     |    1     	|    1      |	{}    |  5   |             	|           	|
+|   2     |    1     	|    2      |	 {}   |  6   |             	|           	|
+|   3     |     1 	  |      3    |	 {}   |  2   |             	|           	|
 
 ###Player
-| PlayerId | SteamId |PotId|
+| PlayerId | SteamId |RoundId|
 |---------|----------|----|
-|         |          |    |
-|         |          |    | 
-|         |          |    |
+|    1     |      123    |  1  |
+|    2     |     222     |  1  | 
+|   3     |     444  |  1 |
