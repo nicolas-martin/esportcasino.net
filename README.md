@@ -7,9 +7,9 @@
 
 
 ###Round
-| Id     | skimItemsJson    |TradeId    |TimeStarted  | TimeEnded 	|winnerSteamId 	|Value  | IsRoundRunning |
-|---------|-------- |-----------|-------------|-------------|------   |---    |-----|
-|1        | {}        | 79857   | ...         |....         |33333    |44$    |TRUE|
+| Id     | skimItemsJson    |TradeId    |TimeStarted  | TimeEnded 	|winnerSteamId 	| IsRoundRunning |
+|---------|-------- |-----------|-------------|-------------|------   |-----|
+|1        | {}        | 79857   | ...         |....         |33333    |TRUE|
 
 
 ```SQL
@@ -28,9 +28,7 @@ CREATE TABLE Round (
 -- Table bets
 CREATE TABLE bets (
     betId int    NOT NULL ,
-    itemsJson char(12)    NOT NULL ,
     SteamId int    NOT NULL ,
-    itemsvalue numeric(15,2)    NOT NULL ,
     roundId int    NOT NULL ,
     CONSTRAINT bets_pk PRIMARY KEY (betId)
 );
