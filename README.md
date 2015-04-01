@@ -1,13 +1,13 @@
 ### Bet 
-|Id       | RoundId 	|itemsJson  |itemsvalue  |SteamId|
-|---------|---------	|----	  |----   |------ |
-|   1     |    1     	|	{}    |  5    |2222   |
-|   2     |    1     	|	 {}   |  6    |3333   |
-|   3     |     1 	  |	 {}   |  2    |4444   |
+|Id       | RoundId 	|itemsJson  |itemsvalue  |SteamId|TradeId |
+|---------|---------	|----	  |----   |------ |---- |
+|   1     |    1     	|	{}    |  5    |2222   |667135|
+|   2     |    1     	|	 {}   |  6    |3333   |55167|
+|   3     |     1 	  |	 {}   |  2    |4444   |    54617 |
 
 
 ###Round
-| Id     | Skim    |TradeId    |TimeStarted  | TimeEnded 	|winnerSteamId 	|Value  | IsRoundRunning |
+| Id     | skimItemsJson    |TradeId    |TimeStarted  | TimeEnded 	|winnerSteamId 	|Value  | IsRoundRunning |
 |---------|-------- |-----------|-------------|-------------|------   |---    |-----|
 |1        | {}        | 79857   | ...         |....         |33333    |44$    |TRUE|
 
